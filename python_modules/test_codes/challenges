@@ -1,0 +1,31 @@
+1. Service Status Checker
+Modules to use: subprocess, os
+Task: Write a script that:
+Takes a list of services (e.g., nginx, docker, ssh)
+Checks if they are running, stopped, or not found
+Prints the status of each service
+
+2. Log File Analyzer
+Modules to use: os, re
+Task: Write a script that:
+Reads a log file (e.g., /var/log/syslog)
+Extracts all lines with the word ERROR
+Prints the total number of errors found
+
+3. Disk Space Monitor
+Modules to use: shutil, datetime
+Task: Write a script that:
+Checks disk usage of /
+If usage exceeds 80%, writes a warning message to a file with timestamp
+
+4. Backup Script
+Modules to use: shutil, os
+Task: Write a script that:
+Copies files from /etc/ to /tmp/backup/
+Creates the backup directory if it doesn’t exist
+
+5. Environment Variable Reporter
+Modules to use: os, json
+Task: Write a script that:
+Reads all environment variables
+Saves them to a JSON file named env_backup.json
