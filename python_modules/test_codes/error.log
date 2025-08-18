@@ -1,3 +1,5 @@
+# Demo error.log file for practice
+
 2025-08-17 10:00:01 INFO  Starting application
 2025-08-17 10:00:02 DEBUG Loading configuration from config.yml
 2025-08-17 10:00:03 INFO  Configuration loaded successfully
