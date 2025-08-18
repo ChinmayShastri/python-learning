@@ -1,3 +1,5 @@
 {
-   "Key: value"
+    "PATH": "/usr/bin:/bin:/usr/sbin:/sbin",
+    "HOME": "/Users/chinmay",
+    "SHELL": "/bin/zsh"
 }
