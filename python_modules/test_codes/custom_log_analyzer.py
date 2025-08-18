@@ -23,8 +23,8 @@ def find_errors(log_file, limit=10):
     return errors
 
 if __name__ == "__main__":
-    # Take log file from CLI, else default to /var/log/syslog
-    log_file = sys.argv[1] if len(sys.argv) > 1 else "/var/log/syslog"
+    # Take log file from CLI, else default to error.log
+    log_file = sys.argv[1] if len(sys.argv) > 1 else "error.log"
     find_errors(log_file)
-
-#python custom_log_analyzer.py /path/to/the/app.log
+# Command
+# python custom_log_analyzer.py error.log
