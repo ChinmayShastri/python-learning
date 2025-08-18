@@ -19,7 +19,6 @@ percent_used = (usage.used / usage.total) * 100
 # print(f"Used percentage: {percent_used:.2f}%")
 
 # With open will open the file and will add the log in disk_check.log file
-# append mode, auto-closes after block
 with open("disk_check.log", "a") as f:   # append mode, auto-closes after block
     if percent_used >= 18:
         f.write(f"{timestamp} Disk utilised {percent_used:.2f}%, Clean up is required.\n")
