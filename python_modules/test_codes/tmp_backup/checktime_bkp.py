@@ -9,4 +9,4 @@ def log_message(message):
     time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{time}] {message}")
 
-log_message("Deployment started at this time:")
+log_message("Deployment started.")
