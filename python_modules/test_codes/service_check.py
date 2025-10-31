@@ -7,3 +7,5 @@ service = ["nginx", "sshd", "docker"]
 for service in service:
     print(f"Checking for, {service}")
     print(f"{service} service is", check_service(service))
+    
+
